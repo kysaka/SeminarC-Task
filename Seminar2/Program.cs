@@ -1,14 +1,19 @@
-﻿int cutNumber(int num) // 354
-{
-    int hundreds = num / 10;
-    int units = num % 10;
-    int result = units;
+﻿// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+// 456 -> 5
+// 782 -> 8
+// 918 -> 1
 
-    return result;
-}
+// int cutNumber(int num) 
+// {
+//     int hundreds = num / 10;
+//     int units = num % 10;
+//     int result = units;
 
-int randNumber = new Random().Next(100,1000);
+//     return result;
+// }
 
-int newNumber = cutNumber(randNumber);
+// int randNumber = new Random().Next(100,1000);
 
-Console.WriteLine($"New wersian of {randNumber} is {newNumber}");
+// int newNumber = cutNumber(randNumber);
+
+// Console.WriteLine($"New wersian of {randNumber} is {newNumber}");

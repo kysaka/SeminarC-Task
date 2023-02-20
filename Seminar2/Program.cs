@@ -6,7 +6,7 @@
 // int cutNumber(int num) 
 // {
 //     int hundreds = num / 10;
-//     int units = num % 10;
+//     int units = hundreds % 10;
 //     int result = units;
 
 //     return result;
@@ -24,26 +24,6 @@
 // 645 -> 5
 // 78 -> третьей цифры нет
 // 32679 -> 6
-
-/* -----------------------------------
-// Console.Write("Enter a number: ");
-// string number = (Console.ReadLine())!;
-// int num = Convert.ToInt32(number);
-
-// if (number.Length > 3 && number.Length)
-//     {   
-//         int hundreds = num / 10;
-//         int units = hundreds % 10;
-//         int result = units;
-//         Console.WriteLine($"The last digit: {result}");
-//     }
-//     if (number.Length == 3)
-//     {   
-//         int units = num % 10;
-//         int result = units;
-//         Console.WriteLine($"The last digit: {result}");
-//    }
--------------------------------------------------------------------*/
 
 // int number = ReadInt("Enter a number: ");
 // int count = number.ToString().Length;
